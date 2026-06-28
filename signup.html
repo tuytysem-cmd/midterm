@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - reanIT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body class="login_body">
+    <div class="login_container">
+      <a href="index.html" class="back_home_link"
+        ><i class="fa-solid fa-arrow-left"></i> Back to Academy</a
+      >
+
+      <div class="login_box">
+        <h2>Create <span>Account</span></h2>
+        <p>
+          Join reanIT academy today to track your course progress and learn
+          skills.
+        </p>
+
+        <form action="login.html" method="GET">
+          <div class="input_group">
+            <label for="username">Full Name</label>
+            <div class="input_wrapper">
+              <i class="fa-regular fa-user"></i>
+              <input
+                type="text"
+                id="username"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="input_group">
+            <label for="email">Email Address</label>
+            <div class="input_wrapper">
+              <i class="fa-regular fa-envelope"></i>
+              <input
+                type="email"
+                id="email"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="input_group">
+            <label for="password">Password</label>
+            <div class="input_wrapper">
+              <i class="fa-solid fa-lock"></i>
+              <input
+                type="password"
+                id="password"
+                placeholder="••••••••"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form_options">
+            <label
+              ><input type="checkbox" required /> I agree to the Terms &
+              Conditions</label
+            >
+          </div>
+
+          <button type="submit" class="login_submit_btn">
+            Register Account
+          </button>
+        </form>
+
+        <p class="signup_redirect">
+          Already have an account? <a href="login.html">Log in</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
